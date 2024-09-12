@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #a5c8f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 320px;
+    background-color: #a5c8f2;
+    text-align: center;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.menu-icon,
+.location-icon {
+    font-size: 24px;
+}
+
+.weather-info h1 {
+    font-size: 36px;
+    color: white;
+}
+
+.temperature {
+    font-size: 64px;
+    color: white;
+}
+
+.condition {
+    font-size: 24px;
+    color: white;
+}
+
+.weather-icon {
+    font-size: 48px;
+    margin-top: 10px;
+}
+
+.forecast-section {
+    margin-top: 20px;
+}
+
+.forecast-header {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.forecast-card {
+    background-color: #7d9ab5;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.forecast-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.see-more {
+    display: block;
+    margin: 10px 0;
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+.suggestion-link {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.suggestion-link:after {
+    content: '⬆️';
+    display: block;
+    margin-top: 10px;
+    font-size: 24px;
+}
